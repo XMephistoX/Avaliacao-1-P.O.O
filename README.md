@@ -1,3 +1,5 @@
 # Avaliacao-1-P.O.O
 Avaliação de poo
-Membros da Equipe:
+Equipe 1 
+Membros da Equipe:Kael Rabelo, Danusa Ribeiro, Felipe Eduardo, e Raul Domiciliano.
+ 
