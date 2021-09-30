@@ -1,0 +1,85 @@
+using System;
+class Program {
+  public static void Main (string[] args) 
+  {
+   
+int b = 0;
+int c = 0;
+int operador = 0;
+int op =0;
+double d = 0;
+double raiz = 0;
+
+//kael rabelo\\
+
+while (op == 0)
+{
+  Console.WriteLine("digite 1 para somar dois numeros");
+  Console.WriteLine("digite 2 para subtrair dois numeros");
+  Console.WriteLine("digite 3 para a multiplicar dois numeros");
+  Console.WriteLine("digite 4 para dividir dois numeros");
+  Console.WriteLine("digite 5 para fazer a raiz quadrada de um numero (ele não deve ser menor que 0 )");
+  Console.WriteLine("digite 6 para elevar um numero ao quadrado ");
+  op = int.Parse(Console.ReadLine ());
+  if (op > 6 || op < 0 )
+{
+    Console.WriteLine("voce escolheu um valor invalido por favor refaça");
+    op = 0;
+}
+}
+    if (op == 1)
+   {
+      Console.WriteLine("voce escolheu somar, digite o primeiro numero por favor ");
+      c = int.Parse(Console.ReadLine ());
+      Console.WriteLine("digite o segundo numero por favor ");
+      b = int.Parse(Console.ReadLine ());
+      operador = c+b;
+      Console.WriteLine("o resultado da sua operação é  "+ operador);
+   }
+
+    if (op == 2)
+   {
+      Console.WriteLine("voce escolheu Subtrair, digite o primeiro numero por favor ");
+      c = int.Parse(Console.ReadLine ());
+      Console.WriteLine("digite o segundo numero por favor ");
+      b = int.Parse(Console.ReadLine ());
+      operador = c-b;
+      Console.WriteLine("o resultado da sua operação é  "+ operador);
+   }
+
+    if (op == 3)
+   {
+      Console.WriteLine("voce escolheu multiplicar, digite o primeiro numero por favor ");
+      c = int.Parse(Console.ReadLine ());
+      Console.WriteLine("digite o segundo numero por favor ");
+      b = int.Parse(Console.ReadLine ());
+      operador = c*b;
+      Console.WriteLine("o resultado da sua operação é  "+ operador);
+   }
+
+    if (op == 4)
+   {
+      Console.WriteLine("voce escolheu divisão, digite o primeiro numero por favor ");
+      c = int.Parse(Console.ReadLine ());
+      Console.WriteLine("digite o segundo numero por favor ");
+      b = int.Parse(Console.ReadLine ());
+      operador = c/b;
+      Console.WriteLine("o resultado da sua operação é  "+ operador);
+   }
+
+    if (op == 5)
+   {
+      Console.WriteLine("voce escolheu raiz quadrada, digite o numero por favor ");
+      d = double.Parse(Console.ReadLine ());
+      raiz = Math.Sqrt(d);
+      Console.WriteLine("o resultado da sua operação é  "+ raiz);
+   }
+
+    if (op == 6)
+   {
+      Console.WriteLine("voce escolheu elevar ao quadrado , digite o numero por favor ");
+      c = int.Parse(Console.ReadLine ());
+      operador = c*c;
+      Console.WriteLine("o resultado da sua operação é  "+ operador);
+   }
+}}
