@@ -70,8 +70,17 @@ while (op == 0)
       c = int.Parse(Console.ReadLine ());
       Console.WriteLine("digite o segundo numero por favor ");
       b = int.Parse(Console.ReadLine ());
-      operador = c/b;
-      Console.WriteLine("o resultado da sua operação é  "+ operador);
+
+        if (b == 0 )
+      {
+        Console.WriteLine("invalido divisão por zero");
+      }
+        else
+      {
+        operador = c/b;
+      
+        Console.WriteLine("o resultado da sua operação é  "+ operador);
+      }
    }
 
     if (op == 5)
